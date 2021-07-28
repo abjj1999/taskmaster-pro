@@ -125,7 +125,8 @@ $(".list-group").on("blur", "input[type = 'text']", function(){
     .closest(".list-group")
     .attr("id")
     .replace("list-", "");
-
+  
+  console.log(status);
   
   // get the task's position in the list of other li elements
   var index = $(this)
